@@ -1,0 +1,29 @@
+.container{
+    border:2px solid red;
+    width:25vw;
+    display:flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.inner{
+    margin-left:10px;
+    
+}
+
+.tech{
+    display:flex;
+    flex-direction: row;
+}
+
+h2{
+    font-size:2vw;
+}
+
+h3{
+    font-size:1.3vw;
+}
+
+p{
+    font-size:1vw;
+}

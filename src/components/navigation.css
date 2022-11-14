@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  color: rgb(39, 37, 37);
+  display: flex;
+  width: 99vw;
+  height: 100vh;
+  justify-content: center;
+  position: absolute;
+  top: 100vh;
+}
+
+.title {
+  font-size: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 48vw;
+}
+
+.top {
+  font-size: 10vw;
+  width: 100%;
+  transition: width 0.2s,
+    font-size 0.5s,
+    background-color 0.5s;
+}
+
+.bottom {
+  font-size: 10vw;
+  width: 75%;
+  transition: width 0.2s,
+    font-size 0.5s,
+    background-color 0.5s;
+  transform: rotateZ(180deg);
+}
+
+.left {
+  width: 5vw;
+  height: 5vw;
+  transition: font-size 0.2s;
+  transform: rotateZ(-90deg);
+}
+
+.right {
+  width: 5vw;
+  height: 5vw;
+  transition: font-size 0.2s;
+  transform: rotateZ(90deg);
+}
+
+.side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 18vw;
+}
+
+.less-than {
+  font-size: 30vw;
+  width: 13vw;
+}
+
+.greater-than {
+  font-size: 30vw;
+  width: 13vw;
+}
+
+.sign {
+  display: flex;
+  justify-content: center;
+}
+
+.middle_o {
+  margin: 1vw;
+}
+
+.title:hover {
+  color: rgb(140, 0, 255);
+  z-index: 1;
+  /* background-color: rgb(39, 37, 37); */
+}
+
+.top:hover {
+  font-size: 12vw;
+  animation: enlarge1 0.4s 1;
+  width: 60vw;
+  background-color: rgb(39, 37, 37);
+}
+
+.bottom:hover {
+  font-size: 12vw;
+  animation: enlarge2 0.4s 1;
+  width: 45vw;
+  background-color: rgb(39, 37, 37);
+}
+
+.left:hover {
+  font-size: 7vw;
+}
+
+.right:hover {
+  font-size: 7vw;
+}
+
+@keyframes enlarge1 {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 60vw;
+  }
+}
+
+@keyframes enlarge2 {
+  0% {
+    width: 0px;
+  }
+
+  100% {
+    width: 45vw;
+  }
+}
