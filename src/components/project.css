@@ -1,14 +1,25 @@
 .container{
-    border:2px solid red;
+    border:2px solid whitesmoke;
     width:25vw;
+    height:auto;
     display:flex;
     align-items: flex-start;
+    justify-content: space-between;
     flex-direction: column;
+    color:aliceblue;
+    gap:20px;
+    border-radius: 10px;
+    margin-top:20px
 }
 
 .inner{
     margin-left:10px;
-    
+    padding:20px;
+}
+
+.inner-desc{
+    width:90%;
+    word-wrap: break-word;
 }
 
 .tech{
@@ -26,4 +37,10 @@ h3{
 
 p{
     font-size:1vw;
+}
+
+@media only screen and (max-width: 1090px) {
+    .container{
+        width:80vw;
+    }
 }

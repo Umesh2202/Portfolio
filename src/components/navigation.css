@@ -18,6 +18,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color:rgb(39, 37, 37);
+  text-decoration: none;
 }
 
 .middle {

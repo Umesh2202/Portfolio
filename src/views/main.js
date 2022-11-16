@@ -9,11 +9,6 @@ export default function main() {
     <div className="all">
       <Home />
       <Acc />
-      {/* <span className="next">
-      <button className="btn" onClick={this.handleClick}>
-        \/
-      </button>
-    </span> */}
       <Nav />
     </div>
   );
