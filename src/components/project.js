@@ -17,6 +17,13 @@ export default function project(props) {
         <h3 className="inner">Tech: </h3>
         <h3 className="inner">{techs}</h3>
       </div>
+      <div className="git-hub-outer">
+        <div className="git-hub-inner">
+          <a target="_blank" href="https://icons8.com/icon/3tC9EQumUAuq/github">
+            <img src="https://img.icons8.com/glyph-neue/64/null/github.png" />
+          </a>
+        </div>
+      </div>
     </div>
   );
 }

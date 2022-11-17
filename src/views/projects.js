@@ -10,7 +10,7 @@ export default function projects() {
       <div className="projectItem">
         <Project
           title="Restuarant Management System"
-          desc="A system"
+          desc="A system used in restaurant. Supports features like adding to the menu, deleting fron the menu, viewing sales(admin side), etc"
           tech={["C"]}
         />
         <Project
