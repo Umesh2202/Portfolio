@@ -11,7 +11,7 @@ export default function project(props) {
 
   return (
     <div className="container">
-      <h2 className="inner">{props.title}</h2>
+      <h2 className="inner inner-title">{props.title}</h2>
       <p className="inner inner-desc">{props.desc}</p>
       <div className="tech">
         <h3 className="inner">Tech: </h3>
@@ -20,7 +20,10 @@ export default function project(props) {
       <div className="git-hub-outer">
         <div className="git-hub-inner">
           <a target="_blank" href="https://icons8.com/icon/3tC9EQumUAuq/github">
-            <img src="https://img.icons8.com/glyph-neue/64/null/github.png" />
+            <img
+              src="https://img.icons8.com/glyph-neue/64/null/github.png"
+              width="50px"
+            />
           </a>
         </div>
       </div>

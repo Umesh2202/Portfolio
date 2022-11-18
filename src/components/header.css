@@ -32,3 +32,11 @@
     text-decoration: none;
     color:rgb(42, 38, 38);
 }
+
+.home-outer{
+    transition: transform 0.5s;
+}
+
+.home-outer:hover{
+    transform: translateX(-50px);
+}

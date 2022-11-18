@@ -6,9 +6,9 @@ export default function header(props) {
   return (
     <div className="header" style={{ backgroundColor: "#ffbc00" }}>
       <div className="header_inner">
-        <span>
+        <span className="home-outer">
           <Link to="/" className="header_text header_home">
-            &#60;HOME |
+            &#60;HOME
           </Link>
         </span>
         <span className="header_text header_title">{props.title}</span>

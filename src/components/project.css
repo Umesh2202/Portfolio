@@ -11,12 +11,17 @@
     border-radius: 10px;
     margin-top:20px;
     transition: transform 0.5s,
-    background-color 1s;
+    background-color 1s,
+    box-shadow 0.5s;
 }
 
 .inner{
     margin-left:10px;
-    padding:20px;
+    padding-left:20px;
+}
+
+.inner-title{
+    padding-top:20px;
 }
 
 
@@ -25,13 +30,14 @@
     display:flex;
     justify-content: center;
     transform: translateY(-1vh);
-    height:8vh;
+    height:1vh;
     z-index:-1;
 }
 
 .git-hub-inner{
-    width:20%;
+    width:15%;
     display:flex;
+    height:3rem;
     justify-content: center;
     align-items: center;
     background-color: rgb(42, 38, 38);
@@ -67,16 +73,22 @@ p{
 .container:hover{
     color:rgb(42, 38, 38);
     transform: scale(1.3);
-    background-color: #ffbc00;
+    background-color: #ffffff4a;
     z-index: 1;
-    border:2px solid rgb(42, 38, 38);
-    box-shadow: #ffbc00;
+    /* border:2px solid rgb(42, 38, 38); */
+    /* box-shadow: 10px 5px 5px rgb(255, 254, 253); */
+    backdrop-filter: blur(5px);
 }
 
 .container:hover  .git-hub-inner{
     animation: translate1 1s forwards;
     opacity:1 ;
-    background-color: #ffbc00;
+    background-color: #ffffff4a;
+    /* background-color: #ffbb00c5; */
+    /* box-shadow: 10px 5px 5px rgb(255, 254, 253); */
+    border-bottom:2px solid black;
+    border-right:2px solid black;
+    border-left:2px solid black;
 }
 
 @media only screen and (max-width: 1090px) {
@@ -96,7 +108,7 @@ p{
     }
     
     100% {
-        transform: translateY(8vh);
+        transform: translateY(1.7vh);
         opacity: 1;
     }
   }
