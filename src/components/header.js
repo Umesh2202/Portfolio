@@ -4,7 +4,10 @@ import { Link } from "react-router-dom";
 
 export default function header(props) {
   return (
-    <div className="header" style={{ backgroundColor: "#ffbc00" }}>
+    <div
+      className="header"
+      style={{ backgroundColor: `${props.bgclr}`, color: `${props.color}` }}
+    >
       <div className="header_inner">
         <span className="home-outer">
           <Link to="/" className="header_text header_home">

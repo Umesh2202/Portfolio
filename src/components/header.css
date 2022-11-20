@@ -7,7 +7,7 @@
 }
 
 .header{
-    color:rgb(42, 38, 38);
+    /* color:rgb(42, 38, 38); */
     height: clamp(2rem, 20vw, 10rem);
     display:flex;
     justify-content: center;
@@ -38,5 +38,5 @@
 }
 
 .home-outer:hover{
-    transform: translateX(-50px);
+    transform: translateX(-40px);
 }

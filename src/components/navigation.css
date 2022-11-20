@@ -99,6 +99,7 @@
   animation: enlarge1 0.4s 1;
   width: 60vw;
   background-color: rgb(39, 37, 37);
+  border-radius:20px;
 }
 
 .bottom:hover {
@@ -106,6 +107,7 @@
   animation: enlarge2 0.4s 1;
   width: 45vw;
   background-color: rgb(39, 37, 37);
+  border-radius:20px;
 }
 
 .left:hover {

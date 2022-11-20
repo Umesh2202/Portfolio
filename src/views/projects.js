@@ -6,7 +6,7 @@ import "./projects.css";
 export default function projects() {
   return (
     <div className="projects">
-      <Header title="PROJECTS" />
+      <Header title="PROJECTS" bgclr="#ffbc00" />
       <div className="projectItem">
         <Project
           title="Restuarant Management System"
