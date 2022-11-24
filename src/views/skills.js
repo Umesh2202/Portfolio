@@ -27,9 +27,29 @@ export default function skills() {
       "JS",
     ],
     [
+      "https://img.icons8.com/color/480/null/mysql-logo.png",
+      "Intermediate",
+      "MySQL",
+    ],
+    [
       "https://img.icons8.com/plasticine/480/null/react.png",
       "Begginer",
       "React",
+    ],
+    [
+      "https://img.icons8.com/plasticine/480/null/bash.png",
+      "Begginer",
+      "Shell",
+    ],
+    [
+      "https://cdn-icons-png.flaticon.com/512/6124/6124995.png",
+      "Begginer",
+      "Linux",
+    ],
+    [
+      "https://img.icons8.com/color/480/null/python--v1.png",
+      "Begginer",
+      "Python",
     ],
   ];
 
@@ -51,50 +71,7 @@ export default function skills() {
   return (
     <div>
       <Header title="SKILLS" bgclr="#4903fc" color="#ffffff" />
-      <div className="skills-outer">
-        {renderSkill()}
-        {/* <Skill
-          source="https://img.icons8.com/color/480/null/c-programming.png"
-          level="Intermediate"
-          name="C Language"
-        /> */}
-        {/* <Skill
-          source="https://img.icons8.com/color/480/null/c-programming.png"
-          level="4"
-        />
-        <Skill
-          source="https://img.icons8.com/color/480/null/c-programming.png"
-          level="4"
-        />
-        <Skill
-          source="https://img.icons8.com/color/480/null/c-programming.png"
-          level="4"
-        />
-        <Skill
-          source="https://img.icons8.com/color/480/null/c-programming.png"
-          level="4"
-        />
-        <Skill
-          source="https://img.icons8.com/color/480/null/c-programming.png"
-          level="4"
-        />
-        <Skill
-          source="https://img.icons8.com/color/480/null/c-programming.png"
-          level="4"
-        />
-        <Skill
-          source="https://img.icons8.com/color/480/null/c-programming.png"
-          level="4"
-        />
-        <Skill
-          source="https://img.icons8.com/color/480/null/c-programming.png"
-          level="4"
-        />
-        <Skill
-          source="https://img.icons8.com/color/480/null/c-programming.png"
-          level="4"
-        /> */}
-      </div>
+      <div className="skills-outer">{renderSkill()}</div>
     </div>
   );
 }

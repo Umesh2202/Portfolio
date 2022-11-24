@@ -8,7 +8,7 @@ export default function navigation() {
       <div className="side">
         <div className="less-than sign">&#60;</div>
         <div className="nav-text">
-          <Link to="/projects" className="title left">
+          <Link to="/education" className="title left">
             EDUCATION
           </Link>
         </div>
@@ -26,7 +26,7 @@ export default function navigation() {
 
       <div className="side">
         <div className="nav-text">
-          <Link to="/projects" className="title right">
+          <Link to="/about" className="title right">
             ABOUT
           </Link>
         </div>

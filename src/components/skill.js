@@ -8,7 +8,7 @@ export default function skill(props) {
         src={props.source}
         alt="some image"
         className="skill-image"
-        width="80%"
+        width="75%"
       ></img>
       <h1 className="skill-name">{props.name}</h1>
       <p className="skill-level">{props.level}</p>
