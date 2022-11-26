@@ -10,10 +10,11 @@ export default class accounts_bar extends Component {
           <a href="https://github.com/Umesh2202" target="_blanck">
             <li className="acc-list-item">
               <img
-                src="https://img.icons8.com/sf-ultralight/200/null/github.png"
+                src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
                 width="70px"
                 className="logo"
                 alt=""
+                style={{ borderRadius: "50%" }}
               ></img>
             </li>
           </a>
