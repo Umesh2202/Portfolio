@@ -11,7 +11,7 @@ Feel free to contribute to make the website better :v:
 ## You can directly open the website as it is hosted on Netlify
 
 
-[```My website```](https://dynamic-moxie-67bcb3.netlify.app/)
+[```My website```](https://umesh2202.netlify.app/)
 ### OR By cloning
 
 ## IMPORTANT: Make sure, before next step that you have npm installed, if not use the following command
