@@ -28,7 +28,7 @@
 }
 
 .header_home{
-    font-size:clamp(1rem, 3vw, 3rem); 
+    font-size:clamp(1.3rem, 3vw, 3rem); 
     text-decoration: none;
     color:rgb(42, 38, 38);
 }

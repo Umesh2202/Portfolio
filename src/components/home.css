@@ -2,7 +2,7 @@
 
 .all {
   width: 100vw;
-  height: 108vh;
+  height:180vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -70,6 +70,9 @@
 }
 
 @media only screen and (max-width:1300px){
+  .all{
+    height: 120vh;
+  } 
   .about{
     margin-top:7vh;
   }

@@ -5,8 +5,6 @@
   justify-content: center;
   align-items: center;
   background: whitesmoke;
-  position:absolute;
-  position:sticky;
   bottom:6vh;
 }
 
@@ -35,6 +33,7 @@
   font-size:clamp(2rem,3vw,4rem);
   animation: slide 1s infinite alternate;
   color:black;
+  text-decoration: none;
 }
 
 .logo{

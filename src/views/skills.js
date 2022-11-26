@@ -1,10 +1,15 @@
-import React from "react";
+import React, { Component } from "react";
 import Skill from "../components/skill";
 import Header from "../components/header";
+import Footer from "../components/footer";
 import "./skills.css";
 
-export default function skills() {
-  const skillList = [
+export default class skills extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
+  skillList = [
     [
       "https://img.icons8.com/color/480/null/c-programming.png",
       "Intermediate",
@@ -53,25 +58,28 @@ export default function skills() {
     ],
   ];
 
-  const renderSkill = () => {
+  renderSkill = () => {
     let skillCards = [];
 
-    for (let i = 0; i < skillList.length; i++) {
+    for (let i = 0; i < this.skillList.length; i++) {
       skillCards.push(
         <Skill
-          source={skillList[i][0]}
-          level={skillList[i][1]}
-          name={skillList[i][2]}
+          source={this.skillList[i][0]}
+          level={this.skillList[i][1]}
+          name={this.skillList[i][2]}
         />
       );
     }
     return skillCards;
   };
 
-  return (
-    <div>
-      <Header title="SKILLS" bgclr="#4903fc" color="#ffffff" />
-      <div className="skills-outer">{renderSkill()}</div>
-    </div>
-  );
+  render() {
+    return (
+      <div>
+        <Header title="SKILLS" bgclr="#4903fc" color="#ffffff" />
+        <div className="skills-outer">{this.renderSkill()}</div>
+        <Footer />
+      </div>
+    );
+  }
 }

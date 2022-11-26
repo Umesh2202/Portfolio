@@ -1,10 +1,10 @@
 .projects{
-    background-color:rgb(42, 38, 38);
-    padding-bottom:100px;
+    background-color:rgb(28, 33, 37);
+    /* padding-bottom:100px; */
 }
 
 .projectItem{
-    background-color:rgb(42, 38, 38);
+    background-color:rgb(28, 33, 37);
     position:absolute;
     width:100%;
     height: auto;
@@ -15,7 +15,7 @@
     justify-content: center;
     grid-gap:30px;
     padding-top:30px;
-    padding-bottom:200px;
+    padding-bottom:100px;
 }
 
 
