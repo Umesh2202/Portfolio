@@ -38,22 +38,22 @@ export default class skills extends Component {
     ],
     [
       "https://img.icons8.com/plasticine/480/null/react.png",
-      "Begginer",
+      "Beginner",
       "React",
     ],
     [
       "https://img.icons8.com/plasticine/480/null/bash.png",
-      "Begginer",
+      "Beginner",
       "Shell",
     ],
     [
       "https://cdn-icons-png.flaticon.com/512/6124/6124995.png",
-      "Begginer",
+      "Beginner",
       "Linux",
     ],
     [
       "https://img.icons8.com/color/480/null/python--v1.png",
-      "Begginer",
+      "Beginner",
       "Python",
     ],
   ];

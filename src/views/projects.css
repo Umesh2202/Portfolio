@@ -1,6 +1,5 @@
 .projects{
     background-color:rgb(28, 33, 37);
-    /* padding-bottom:100px; */
 }
 
 .projectItem{
@@ -12,6 +11,7 @@
     justify-items: center;
     align-content: center;
     grid-template-columns: 25vw 25vw 25vw;
+    grid-template-rows: 52vh 52vh;
     justify-content: center;
     grid-gap:30px;
     padding-top:30px;

@@ -19,19 +19,6 @@ export default class project extends Component {
           <h3 className="inner">Tech: </h3>
           <h3 className="inner">{this.techs}</h3>
         </div>
-        <div className="git-hub-outer">
-          <div className="git-hub-inner">
-            <a
-              target="_blank"
-              href="https://icons8.com/icon/3tC9EQumUAuq/github"
-            >
-              <img
-                src="https://img.icons8.com/glyph-neue/64/null/github.png"
-                width="50px"
-              />
-            </a>
-          </div>
-        </div>
       </div>
     );
   }

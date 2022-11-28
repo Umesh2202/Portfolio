@@ -7,7 +7,7 @@ export default class skill extends Component {
       <span className="skills-card">
         <img
           src={this.props.source}
-          alt="some image"
+          alt=""
           className="skill-image"
           width="75%"
         ></img>

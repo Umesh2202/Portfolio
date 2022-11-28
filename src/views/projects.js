@@ -32,7 +32,7 @@ export default class projects extends Component {
     ],
     [
       "Portfolio Website",
-      "A website about myself. The one you are on &#128514;",
+      "A website about myself. The one you are on 😈",
       ["HTML", "CSS", "JS", "React"],
     ],
     [

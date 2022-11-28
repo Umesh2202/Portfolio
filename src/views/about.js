@@ -22,7 +22,7 @@ export default class about extends Component {
           <p className="about-para">
             Currently looking for interships in various companies
           </p>
-          <p className="about-para">Location: Pune, Maharatra, India</p>
+          <p className="about-para">Location: Pune, Maharashtra, India</p>
         </div>
         <Footer />
       </div>

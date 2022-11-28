@@ -1,17 +1,17 @@
 .container{
-    border:2px solid whitesmoke;
     width:25vw;
     height:auto;
     display:flex;
     align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
-    color:aliceblue;
+    color:#ffd600;
     gap:20px;
     border-radius: 10px;
+    background-color: #ffffff4a;
     margin-top:20px;
     transition: transform 0.5s,
-    background-color 1s,
+    background-color 0.5s,
     box-shadow 0.5s;
 }
 
@@ -24,29 +24,6 @@
     padding-top:20px;
 }
 
-
-.git-hub-outer{
-    width:100%;
-    display:flex;
-    justify-content: center;
-    transform: translateY(-1vh);
-    height:1vh;
-    z-index:-1;
-}
-
-.git-hub-inner{
-    width:15%;
-    display:flex;
-    height:3.5rem;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(42, 38, 38);
-    border-radius: 5px;
-    transition: transform 20s,opacity 0.5s,background-color 1s;
-    z-index:-1;
-    opacity: 0;
-}
-
 .inner-desc{
     width:85%;
     word-wrap: break-word;
@@ -56,6 +33,7 @@
 .tech{
     display:flex;
     flex-direction: row;
+    padding-bottom:25px;
 }
 
 h2{
@@ -64,7 +42,6 @@ h2{
 }
 
 h3{
-    /* font-size:1.3vw; */
     font-size:clamp(0.5rem, 3vw, 1.5rem);
 }
 
@@ -73,11 +50,13 @@ p{
 }
 
 .container:hover{
-    color:#ffd600;
-    transform: scale(1.1) rotateZ(5deg);
-    background-color: #ffffff4a;
+    color:rgb(42, 38, 38);
+    background-color: #ffd600;
+    transform: translate3d(15px,15px,15px);
     z-index: 1;
     backdrop-filter: blur(5px);
+    border:none;
+    box-shadow: -15px -15px rgb(106, 104, 104);
 }
 
 .container:hover  .git-hub-inner{
