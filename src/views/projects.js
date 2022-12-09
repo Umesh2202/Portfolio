@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+// import ScrollAnimation from "react-animate-on-scroll";
 import Project from "../components/project";
 import Header from "../components/header";
 import Footer from "../components/footer";
@@ -61,7 +62,11 @@ export default class projects extends Component {
     return (
       <div className="projects">
         <Header title="PROJECTS" bgclr="#ffd600" />
-        <div className="projectItem">{this.renderProject()}</div>
+        <div className="projectItem">
+          {/* <ScrollAnimation animateOnce animateIn="fadeIn"> */}
+          {this.renderProject()}
+          {/* </ScrollAnimation> */}
+        </div>
         <Footer />
       </div>
     );

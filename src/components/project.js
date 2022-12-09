@@ -19,6 +19,14 @@ export default class project extends Component {
           <h3 className="inner">Tech: </h3>
           <h3 className="inner">{this.techs}</h3>
         </div>
+        {/* <div className="git">
+          <a href="https://www.google.com/" target="_blanck">
+            <img
+              src="https://img.icons8.com/glyph-neue/48/null/github.png"
+              alt=""
+            ></img>
+          </a>
+        </div> */}
       </div>
     );
   }

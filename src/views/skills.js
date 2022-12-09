@@ -27,7 +27,7 @@ export default class skills extends Component {
     ],
     ["https://img.icons8.com/color/480/null/css3.png", "Intermediate", "CSS"],
     [
-      "https://img.icons8.com/fluency/480/000000/javascript.png",
+      "https://img.icons8.com/fluency/480/null/javascript.png",
       "Intermediate",
       "JS",
     ],
