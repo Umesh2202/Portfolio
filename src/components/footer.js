@@ -3,8 +3,6 @@ import "./footer.css";
 
 export default class footer extends Component {
   render() {
-    return (
-      <div className="footer">&#169; Copyright 2022 All Rights Reserved</div>
-    );
+    return <div className="footer">&#x1F12F; All Rights Reserved</div>;
   }
 }

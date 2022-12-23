@@ -1,13 +1,21 @@
+.about-super-outer{
+    height:100vh;
+}
+
 .about-outer{
     background-color: rgb(28, 33, 37);
     font-size:clamp(3rem,4vw,6rem);
     width:100vw;
-    height:auto;
+    height: calc(70vh);
     display:flex;
-    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    padding-left:10px;
+}
+
+.about-inner{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .about-name{
@@ -19,5 +27,5 @@
 .about-para{
     color:whitesmoke;
     font-size:clamp(1.6rem,2.5vw,3rem);
-    padding-top:70px;
+    padding-top:20px;
 }

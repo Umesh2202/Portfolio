@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap");
 
 .all {
-  width: 99vw;
+  width: 100vw;
   height: auto;
   display: flex;
   flex-direction: column;

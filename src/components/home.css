@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap");
 
-.all {
-  width: 100vw;
-  height:180vh;
+.home-all {
+  height:90vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   background-color: rgb(28, 33, 37);
   color: whitesmoke;
@@ -70,8 +69,8 @@
 }
 
 @media only screen and (max-width:1300px){
-  .all{
-    height: 120vh;
+  .home-all{
+    height: 60vh;
   } 
   .about{
     margin-top:7vh;

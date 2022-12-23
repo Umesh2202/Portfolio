@@ -5,7 +5,7 @@ import "./home.css";
 export default class home extends Component {
   render() {
     return (
-      <div className="all">
+      <div className="home-all">
         <p className="handle">Hi! Umesh HERE</p>
         <div className="about">
           <span className="about_initial">I'm a </span>
