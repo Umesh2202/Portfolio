@@ -1,9 +1,8 @@
-.footer{
-    padding:20px;
-    padding-bottom:60px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(28, 33, 37);
-    color:white;
+.footer {
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(28, 33, 37);
+  color: white;
 }

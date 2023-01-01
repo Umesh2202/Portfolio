@@ -10,11 +10,13 @@ export default class about extends Component {
 
   render() {
     return (
-      <div className="about-super-outer">
+      <div className="about-all">
         <Header title="ABOUT" bgclr="#ff0862" />
-
+        <div className="about-name-outer">
+          <h1 className="about-name">Umesh </h1>
+          <h1 className="about-name">Shirsat</h1>
+        </div>
         <div className="about-outer">
-          <h1 className="about-name">Umesh Shirsat</h1>
           <div className="about-inner">
             <p className="about-para">Hi 👋 I am Umesh nice to have you here</p>
             <p className="about-para">
@@ -23,8 +25,8 @@ export default class about extends Component {
             <p className="about-para">
               My hobbies include coding, watching anime, playing games
             </p>
+            <p className="about-para">Location: Pune, Maharashtra, India</p>
           </div>
-          <p className="about-para">Location: Pune, Maharashtra, India</p>
         </div>
         <Footer />
       </div>

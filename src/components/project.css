@@ -14,25 +14,13 @@
   position: relative;
 }
 
-.git {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  bottom: 3em;
-  right: 1.5em;
-  background-color: rgb(255, 255, 255);
-  position: absolute;
-  transform: scale(0);
-  transition: transform 150ms;
-}
-
 .inner {
-  margin-left: 10px;
-  padding-left: 20px;
+  padding-left: 1em;
 }
 
 .inner-title {
   padding-top: 20px;
+  width: clamp(10em, 10vw, 15em);
 }
 
 .inner-desc {
@@ -48,8 +36,8 @@
 }
 
 h2 {
-  font-size: clamp(1.6rem, 5vw, 2.3rem);
-  height: 24vh;
+  font-size: clamp(1rem, 5vw, 2rem);
+  color: rgba(252, 252, 252, 0.589);
 }
 
 h3 {
@@ -70,8 +58,8 @@ p {
   box-shadow: -15px -15px rgb(106, 104, 104);
 }
 
-.container:hover .git {
-  transform: scale(1);
+.container:hover > h2 {
+  color: rgb(42, 38, 38);
 }
 
 @media only screen and (max-width: 1090px) {

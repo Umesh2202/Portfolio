@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap");
 
 .home-all {
-  height:90vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -17,8 +17,6 @@
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  margin-left: 30px;
-  margin-top: 5px;
 }
 
 @keyframes floating {
@@ -34,8 +32,6 @@
 }
 
 .about {
-  min-width: 100vw;
-  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,17 +64,17 @@
   font-weight: bold;
 }
 
-@media only screen and (max-width:1300px){
-  .home-all{
+@media only screen and (max-width: 1300px) {
+  .home-all {
     height: 60vh;
-  } 
-  .about{
-    margin-top:7vh;
   }
-  .about_initial{
-    font-size:4vw;
+  .about {
+    margin-top: 7vh;
   }
-  .about_latter{
-    font-size:4vw;
+  .about_initial {
+    font-size: 4vw;
+  }
+  .about_latter {
+    font-size: 4vw;
   }
 }
