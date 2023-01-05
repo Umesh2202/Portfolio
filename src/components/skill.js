@@ -4,7 +4,7 @@ import "./skill.css";
 export default class skill extends Component {
   render() {
     return (
-      <span className="skills-card">
+      <span className="skills-card pop-out">
         <img
           src={this.props.source}
           alt=""

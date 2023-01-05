@@ -1,39 +1,56 @@
-.skills-card{
-    background-color: #ffffff4a;
-    height:45vh;
-    width:15vw;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    border-radius: 10px;
-    color:rgb(17, 16, 16);
-    transition:transform 0.5s,
-    box-shadow 0.5s,
-    background-color 0.5s;
+.skills-card {
+  background-color: rgb(90, 97, 97);
+  height: 45vh;
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  color: rgb(17, 16, 16);
+  transition: transform 0.5s, box-shadow 0.5s, background-color 0.5s;
 }
 
-
-.skill-image{
-    transition: transform 0.5s;
+.pop-out {
+  animation: pop-out 1s 1;
 }
 
-.skill-name{
-    font-size:clamp(2rem,1.5vw,3rem);
+.skill-image {
+  transition: transform 0.5s;
 }
 
-.skill-level{
-    font-size:clamp(1.5rem,1.1vw,3rem);
+.skill-name {
+  font-size: clamp(2rem, 1.5vw, 3rem);
 }
 
-.skills-card:hover{
-    transform: translate3d(15px,15px,15px);
-    box-shadow: -15px -15px rgb(90, 97, 97);
-    background-color: whitesmoke;
+.skill-level {
+  font-size: clamp(1.5rem, 1.1vw, 3rem);
+}
+
+.skills-card:hover {
+  transform: translate3d(15px, 15px, 15px);
+  box-shadow: -15px -15px rgb(90, 97, 97);
+  background-color: whitesmoke;
+}
+
+.skill-card:hover > .skill-name {
+  color: black;
+}
+
+@keyframes pop-out {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transfrom: scale(0.5);
+  }
+  100% {
+    transfrom: scale(1);
+  }
 }
 
 @media only screen and (max-width: 1090px) {
-    .skills-card{
-        width:60vw;
-    }
+  .skills-card {
+    width: 60vw;
+  }
 }

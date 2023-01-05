@@ -7,11 +7,15 @@
   flex-direction: column;
   color: #ffd600;
   gap: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: #ffffff4a;
   margin-top: 20px;
   transition: transform 0.5s, background-color 0.5s, box-shadow 0.5s;
   position: relative;
+}
+
+.pop-out {
+  animation: pop-out 1s 1;
 }
 
 .inner {
@@ -68,28 +72,14 @@ p {
   }
 }
 
-@keyframes translate1 {
+@keyframes pop-out {
   0% {
-    transform: translateY(0vh);
-    opacity: 0;
+    transform: scale(0);
   }
-
   50% {
-    opacity: 0.5;
+    transfrom: scale(0.5);
   }
-
   100% {
-    transform: translateY(1.9vh);
-    opacity: 1;
-  }
-}
-
-@keyframes translate2 {
-  0% {
-    transform: translateY(0vh);
-  }
-
-  100% {
-    transform: translateY(-8vh);
+    transfrom: scale(1);
   }
 }

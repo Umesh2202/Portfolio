@@ -6,7 +6,7 @@ export default class Project extends Component {
   data = this.props.data;
   render() {
     return (
-      <div className="container">
+      <div className="container pop-out">
         <h2 className="inner inner-title">{this.data.name}</h2>
         <div className="inner inner-desc">{this.data.desc}</div>
         <div className="tech">
