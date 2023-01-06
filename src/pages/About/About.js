@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import Header from "../components/header";
-import Footer from "../components/footer";
-import "./about.css";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
+import "./About.css";
 
 export default class about extends Component {
   componentDidMount() {

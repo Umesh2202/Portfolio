@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Skill from "../components/skill";
-import Header from "../components/header";
-import Footer from "../components/footer";
-import "./skills.css";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
+import Skill from "./components/skill_card/skill_card";
+import "./Skills.css";
 
 export default class skills extends Component {
   componentDidMount() {

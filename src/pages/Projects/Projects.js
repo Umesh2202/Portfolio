@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Header from "../components/header";
-import Footer from "../components/footer";
-import "./projects.css";
-import Project from "../components/project";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
+import Project from "./components/project_card/project_card";
+import "./Projects.css";
 
 export default class projects extends Component {
   componentDidMount() {

@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import EducationCard from "../components/education_card";
-import Header from "../components/header";
-import Footer from "../components/footer";
-import "./education.css";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
+import EducationCard from "./components/education_card/education_card";
+import "./Education.css";
 
 export default class education extends Component {
   componentDidMount() {

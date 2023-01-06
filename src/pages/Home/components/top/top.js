@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Typewriter from "typewriter-effect";
-import "./home.css";
+import "./top.css";
 
 export default class home extends Component {
   render() {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./skill.css";
+import "./skill_card.css";
 
 export default class skill extends Component {
   render() {

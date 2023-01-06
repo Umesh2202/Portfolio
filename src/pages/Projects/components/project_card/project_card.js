@@ -1,6 +1,6 @@
 import React from "react";
 import { Component } from "react";
-import "./project.css";
+import "./project_card.css";
 
 export default class Project extends Component {
   data = this.props.data;

@@ -1,11 +1,10 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Main from "./views/main";
-import Projects from "./views/projects";
-import Skills from "./views/skills";
-import About from "./views/about";
-import Education from "./views/education";
-import Accounts from "./views/accounts";
+import Main from "../pages/Home/Home";
+import Projects from "../pages/Projects/Projects";
+import Skills from "../pages/Skills/Skills";
+import About from "../pages/About/About";
+import Education from "../pages/Education/Education";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
           <Route exact path="/skills" element={<Skills />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/education" element={<Education />} />
-          <Route exact path="/accounts" element={<Accounts />} />
         </Routes>
       </Router>
     </div>
