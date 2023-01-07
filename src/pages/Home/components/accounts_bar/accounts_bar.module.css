@@ -1,0 +1,9 @@
+.container {
+  background-color: rgb(224, 224, 224);
+  border-radius: 20px;
+  box-shadow: 10px 10px rgb(110, 110, 110);
+}
+
+img {
+  padding: 10px;
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Restuarant Management System",
+    "desc": "A system used in restaurant. Supports features like adding to the menu, deleting fron the menu, viewing sales(admin side), etc",
+    "tech": ["C"]
+  },
+  {
+    "id": 2,
+    "name": "Optimal Treaps using Priority Changing Parameters",
+    "desc": "Extending the Restaurant Managment System, using treaps to give suggestions in the restaurant as per the most popular item",
+    "tech": ["C"]
+  },
+  {
+    "id": 3,
+    "name": "Procfetch",
+    "desc": "A linux system utility tool. It shows the current state of the machine. Current state includes RAM,OS,Host,Shell,CPU Temp,etc",
+    "tech": ["Cpp"]
+  },
+  {
+    "id": 4,
+    "name": "Flappy Bird",
+    "desc": "A game replicating the flappy bird on mobile but can be played on PC",
+    "tech": ["Python"]
+  },
+  {
+    "id": 5,
+    "name": "Portfolio Website",
+    "desc": "A website about myself. The one you are on 😈",
+    "tech": ["HTML", "CSS", "JS", "React"]
+  },
+  {
+    "id": 6,
+    "name": "Digital Birth Certificate System",
+    "desc": "A system used to apply, validate and also download birth certificates online",
+    "tech": ["PHP", "MYSQL"]
+  }
+]

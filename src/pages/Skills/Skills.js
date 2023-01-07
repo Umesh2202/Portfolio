@@ -1,15 +1,15 @@
-import React, { Component } from "react";
-import Header from "../../components/header";
-import Footer from "../../components/footer";
+import React, { useEffect } from "react";
+import Header from "../../components/header/header";
+import Footer from "../../components/footer/footer";
 import Skill from "./components/skill_card/skill_card";
-import "./Skills.css";
+import style from "./Skills.module.css";
 
-export default class skills extends Component {
-  componentDidMount() {
+const Skills = () => {
+  useEffect(() => {
     window.scrollTo(0, 0);
-  }
+  }, []);
 
-  skillList = [
+  const skillList = [
     [
       "https://img.icons8.com/color/480/null/c-programming.png",
       "Intermediate",
@@ -58,28 +58,28 @@ export default class skills extends Component {
     ],
   ];
 
-  renderSkill = () => {
+  const renderSkill = () => {
     let skillCards = [];
 
-    for (let i = 0; i < this.skillList.length; i++) {
+    for (let i = 0; i < skillList.length; i++) {
       skillCards.push(
         <Skill
-          source={this.skillList[i][0]}
-          level={this.skillList[i][1]}
-          name={this.skillList[i][2]}
+          source={skillList[i][0]}
+          level={skillList[i][1]}
+          name={skillList[i][2]}
         />
       );
     }
     return skillCards;
   };
 
-  render() {
-    return (
-      <div>
-        <Header title="SKILLS" bgclr="#4903fc" color="#ffffff" />
-        <div className="skills-outer">{this.renderSkill()}</div>
-        <Footer />
-      </div>
-    );
-  }
-}
+  return (
+    <div>
+      <Header title="SKILLS" bgclr="#4903fc" color="#ffffff" />
+      <div className={style.skillsOuter}>{renderSkill()}</div>
+      <Footer />
+    </div>
+  );
+};
+
+export default Skills;

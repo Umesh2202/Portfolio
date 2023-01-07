@@ -1,22 +1,23 @@
-import React, { Component } from "react";
-import Footer from "../../components/footer";
+import React, { useEffect } from "react";
+import Footer from "../../components/footer/footer";
 import Nav from "./components/navigation/navigation";
-import Home from "./components/top/top";
+import Top from "./components/top/top";
 import Acc from "./components/accounts_bar/accounts_bar";
-import "./Home.css";
-export default class main extends Component {
-  componentDidMount() {
-    window.scrollTo(0, 0);
-  }
+import style from "./Home.module.css";
 
-  render() {
-    return (
-      <div className="all">
-        <Home />
-        <Acc />
-        <Nav />
-        <Footer />
-      </div>
-    );
-  }
-}
+const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return (
+    <div className={style.all}>
+      <Top />
+      <Acc />
+      <Nav />
+      <Footer />
+    </div>
+  );
+};
+
+export default Home;

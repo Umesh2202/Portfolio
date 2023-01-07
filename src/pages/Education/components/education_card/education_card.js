@@ -1,15 +1,15 @@
-import React, { Component } from "react";
+import React from "react";
 import "./education_card.css";
 
-export default class education_card extends Component {
-  render() {
-    return (
-      <div className="timeline">
-        <div class="event" data-date={this.props.date}>
-          <h3>{this.props.head}</h3>
-          <p>{this.props.content}</p>
-        </div>
+const education_card = (props) => {
+  return (
+    <div className="timeline">
+      <div class="event" data-date={props.date}>
+        <h3>{props.head}</h3>
+        <p>{props.content}</p>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
+
+export default education_card;

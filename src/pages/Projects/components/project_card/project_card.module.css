@@ -14,7 +14,7 @@
   position: relative;
 }
 
-.pop-out {
+.popout {
   animation: pop-out 1s 1;
 }
 
@@ -22,12 +22,12 @@
   padding-left: 1em;
 }
 
-.inner-title {
+.innerTitle {
   padding-top: 20px;
   width: clamp(10em, 10vw, 15em);
 }
 
-.inner-desc {
+.innerDesc {
   width: 85%;
   word-wrap: break-word;
   font-size: clamp(0.5rem, 3vw, 1.5rem);

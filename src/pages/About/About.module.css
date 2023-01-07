@@ -1,4 +1,4 @@
-.about-all {
+.container {
   min-height: 100vh;
   background-color: rgb(28, 33, 37);
   display: flex;
@@ -6,20 +6,20 @@
   justify-content: space-between;
 }
 
-.about-outer {
+.desc {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.about-inner {
+.paras {
   display: flex;
   align-items: center;
   flex-direction: column;
   padding-left: 1em;
 }
 
-.about-name-outer {
+.name {
   color: #ff0862;
   padding-top: 50px;
   display: flex;
@@ -29,11 +29,11 @@
   flex-wrap: wrap;
 }
 
-.about-name {
-  font-size: clamp(3rem, calc(6vw + 2px), 7rem);
+h1 {
+  font-size: clamp(4rem, 6vw, 8rem);
 }
 
-.about-para {
+p {
   color: whitesmoke;
   font-size: clamp(1.6rem, 2.5vw, 3rem);
   padding-top: 20px;

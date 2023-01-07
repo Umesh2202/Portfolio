@@ -1,18 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "JetBrains Mono", monospace;
-}
-
-.header {
+.container {
   height: clamp(2rem, 20vw, 10rem);
   display: flex;
   justify-content: center;
 }
 
-.header_inner {
+.header {
   width: 100%;
   border-bottom: 4px solid whitesmoke;
   display: flex;
@@ -20,22 +14,21 @@
   align-items: center;
 }
 
-.header_title {
+.back {
+  transition: transform 0.5s;
+  font-size: clamp(1.3rem, 3vw, 3rem);
+}
+
+.back a {
+  text-decoration: none;
+  color: rgb(42, 38, 38);
+}
+.title {
   font-size: clamp(2rem, 5vw, 5rem);
   margin-left: 20px;
   font-weight: bold;
 }
 
-.header_home {
-  font-size: clamp(1.3rem, 3vw, 3rem);
-  text-decoration: none;
-  color: rgb(42, 38, 38);
-}
-
-.home-outer {
-  transition: transform 0.5s;
-}
-
-.home-outer:hover {
+.back:hover {
   transform: translateX(-40px);
 }

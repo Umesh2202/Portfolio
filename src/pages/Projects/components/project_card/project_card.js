@@ -1,23 +1,25 @@
 import React from "react";
-import { Component } from "react";
-import "./project_card.css";
+import cx from "classnames";
+import css from "./project_card.module.css";
 
-export default class Project extends Component {
-  data = this.props.data;
-  render() {
-    return (
-      <div className="container pop-out">
-        <h2 className="inner inner-title">{this.data.name}</h2>
-        <div className="inner inner-desc">{this.data.desc}</div>
-        <div className="tech">
-          <h3 className="inner">Tech: </h3>
-          <h3 className="inner">
-            {this.data.tech.map((el) => {
-              return <>{el} </>;
-            })}
-          </h3>
-        </div>
+const project_card = (props) => {
+  const data = props.data;
+  let key = 0;
+
+  return (
+    <div className={cx(css.container, css.popout)}>
+      <h2 className={cx(css.inner, css.innerTitle)}>{data.name}</h2>
+      <div className={cx(css.inner, css.innerDesc)}>{data.desc}</div>
+      <div className={css.tech}>
+        <h3 className={css.inner}>Tech: </h3>
+        <h3 className={css.inner}>
+          {data.tech.map((tech) => {
+            return <span key={key++}>{tech} </span>;
+          })}
+        </h3>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
+
+export default project_card;
