@@ -1,4 +1,4 @@
-.skillsOuter {
+.skills {
   background-color: rgb(28, 33, 37);
   height: auto;
   display: grid;
@@ -9,7 +9,7 @@
 }
 
 @media only screen and (max-width: 1090px) {
-  .skillsOuter {
+  .skills {
     display: flex;
     flex-direction: column;
     justify-content: center;

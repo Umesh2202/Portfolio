@@ -6,7 +6,11 @@ const accounts_bar = () => {
   return (
     <div className={style.container}>
       {srcs.map((el) => {
-        return <img src={el.src} alt="" />;
+        return (
+          <a href={el.link} target="_blank" rel="noreferrer">
+            <img src={el.src} alt="" />
+          </a>
+        );
       })}
     </div>
   );

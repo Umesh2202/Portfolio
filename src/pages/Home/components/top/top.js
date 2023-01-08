@@ -1,14 +1,18 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import "./top.css";
+import style from "./top.module.css";
 
 const top = () => {
   return (
-    <div className="home-all">
-      <p className="handle">Hi! Umesh HERE</p>
-      <div className="about">
-        <span className="about_initial">I'm a </span>
-        <span className="about_latter">
+    <div className={style.container}>
+      <div className={style.top}>
+        <p className={style.fixed}>Hi!</p>
+        <p className={style.float}>Umesh</p>
+        <p className={style.fixed}>HERE</p>
+      </div>
+      <div className={style.about}>
+        <span className={style.init}>I'm a </span>
+        <span className={style.typwrt}>
           <Typewriter
             options={{
               strings: [

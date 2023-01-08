@@ -11,9 +11,9 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className={style.projects}>
-      <Header title="PROJECTS" bgclr="#ffd600" />
-      <div className={style.projectItem}>
+    <div className={style.container}>
+      <Header title="PROJECTS" bgclr="#ffd600" color="#363636" />
+      <div className={style.item}>
         {projectsList.map((el) => {
           return <ProjectCard data={el} key={el.id} />;
         })}

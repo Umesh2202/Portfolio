@@ -1,8 +1,8 @@
-.projects {
+.container {
   background-color: rgb(28, 33, 37);
 }
 
-.projectItem {
+.item {
   background-color: rgb(28, 33, 37);
   width: 100%;
   height: auto;
@@ -18,7 +18,7 @@
 }
 
 @media only screen and (max-width: 1090px) {
-  .projectItem {
+  .item {
     display: flex;
     flex-direction: column;
     justify-content: center;

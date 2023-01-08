@@ -11,7 +11,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className={style.all}>
+    <div className={style.container}>
       <Top />
       <Acc />
       <Nav />

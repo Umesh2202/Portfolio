@@ -74,9 +74,9 @@ const Skills = () => {
   };
 
   return (
-    <div>
+    <div className={style.container}>
       <Header title="SKILLS" bgclr="#4903fc" color="#ffffff" />
-      <div className={style.skillsOuter}>{renderSkill()}</div>
+      <div className={style.skills}>{renderSkill()}</div>
       <Footer />
     </div>
   );

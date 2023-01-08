@@ -1,5 +1,5 @@
-.nav {
-  color: whitesmoke;
+.container {
+  color: #f5f5f5;
   display: flex;
   height: auto;
   justify-content: center;
@@ -7,11 +7,11 @@
 }
 
 .title {
-  font-size: 5vw;
+  font-size: clamp(1.1em, 5vw, 5em);
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(103, 101, 101);
+  color: #676565;
   text-decoration: none;
   border-radius: 20px;
 }
@@ -31,7 +31,7 @@
 }
 
 .bottom {
-  font-size: 10vw;
+  font-size: clamp(1.5em, 10vw, 12em);
   width: 75%;
   transition: width 0.2s, font-size 0.3s, background-color 0.5s;
   transform: rotateZ(180deg);
@@ -58,17 +58,9 @@
   width: 18vw;
 }
 
-.less-than {
-  font-size: 30vw;
-  width: 13vw;
-}
-
-.greater-than {
-  font-size: 30vw;
-  width: 13vw;
-}
-
 .sign {
+  font-size: clamp(2em, 30vw, 35em);
+  width: 13vw;
   display: flex;
   justify-content: center;
 }
@@ -101,27 +93,4 @@
 .right:hover {
   font-size: 7vw;
   color: #ff0862;
-}
-
-@media only screen and (max-width: 1300px) {
-}
-
-@keyframes enlarge1 {
-  0% {
-    width: 0px;
-  }
-
-  100% {
-    width: 60vw;
-  }
-}
-
-@keyframes enlarge2 {
-  0% {
-    width: 0px;
-  }
-
-  100% {
-    width: 45vw;
-  }
 }

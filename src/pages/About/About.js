@@ -10,7 +10,7 @@ const About = () => {
 
   return (
     <div className={style.container}>
-      <Header title="ABOUT" bgclr="#ff0862" />
+      <Header title="ABOUT" bgclr="#ff0862" color="#363636" />
       <div className={style.name}>
         <h1>&#60; Umesh </h1>
         <h1>Shirsat &#62;</h1>
