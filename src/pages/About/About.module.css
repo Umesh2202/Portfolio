@@ -20,7 +20,8 @@
 }
 
 .name {
-  color: #ff0862;
+  color: #ffd600;
+  text-shadow: 0.4em 0.4em #ff0862;
   padding-top: 50px;
   display: flex;
   justify-content: center;

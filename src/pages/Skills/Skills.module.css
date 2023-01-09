@@ -1,19 +1,18 @@
-.skills {
+.container {
+  width: 100%;
   background-color: rgb(28, 33, 37);
-  height: auto;
-  display: grid;
-  grid-template-columns: 12vw 12vw 12vw 12vw;
-  justify-content: center;
-  grid-gap: 5vw;
-  padding: 150px;
+  flex-direction: column;
 }
 
-@media only screen and (max-width: 1090px) {
-  .skills {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 70px;
-  }
+.skills {
+  min-height: 200vh;
+  margin: auto;
+  display: grid;
+  width: 65%;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(4, 1fr);
+  justify-content: center;
+  gap: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }

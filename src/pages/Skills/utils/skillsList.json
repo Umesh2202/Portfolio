@@ -1,0 +1,52 @@
+[
+  {
+    "source": "https://img.icons8.com/color/480/null/c-programming.png",
+    "level": "Intermediate",
+    "name": "C Language"
+  },
+  {
+    "source": "https://img.icons8.com/color/480/null/c-plus-plus-logo.png",
+    "level": "Intermediate",
+    "name": "C+ Language"
+  },
+  {
+    "source": "https://img.icons8.com/color/480/null/html-5--v1.png",
+    "level": "Intermediate",
+    "name": "HTML"
+  },
+  {
+    "source": "https://img.icons8.com/color/480/null/css3.png",
+    "level": "Intermediate",
+    "name": "CSS"
+  },
+  {
+    "source": "https://img.icons8.com/fluency/480/null/javascript.png",
+    "level": "Intermediate",
+    "name": "JS"
+  },
+  {
+    "source": "https://img.icons8.com/color/480/null/mysql-logo.png",
+    "level": "Intermediate",
+    "name": "MySQL"
+  },
+  {
+    "source": "https://img.icons8.com/plasticine/480/null/react.png",
+    "level": "Beginner",
+    "name": "React"
+  },
+  {
+    "source": "https://img.icons8.com/plasticine/480/null/bash.png",
+    "level": "Beginner",
+    "name": "Shell"
+  },
+  {
+    "source": "https://cdn-icons-png.flaticon.com/512/6124/6124995.png",
+    "level": "Beginner",
+    "name": "Linux"
+  },
+  {
+    "source": "https://img.icons8.com/color/480/null/python--v1.png",
+    "level": "Beginner",
+    "name": "Python"
+  }
+]

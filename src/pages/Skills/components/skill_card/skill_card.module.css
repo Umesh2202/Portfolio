@@ -1,39 +1,36 @@
-.skills-card {
+.container {
   background-color: rgb(90, 97, 97);
-  height: 45vh;
-  width: 15vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
   border-radius: 20px;
-  color: rgb(17, 16, 16);
+  padding: 1em;
   transition: transform 0.5s, box-shadow 0.5s, background-color 0.5s;
-}
-
-.pop-out {
   animation: pop-out 1s 1;
 }
 
-.skill-image {
+.img {
   transition: transform 0.5s;
 }
 
-.skill-name {
+.name {
   font-size: clamp(2rem, 1.5vw, 3rem);
+  color: rgb(196, 196, 196);
 }
 
-.skill-level {
+.level {
   font-size: clamp(1.5rem, 1.1vw, 3rem);
+  color: #212122;
 }
 
-.skills-card:hover {
+.container:hover {
   transform: translate3d(15px, 15px, 15px);
   box-shadow: -15px -15px rgb(90, 97, 97);
   background-color: whitesmoke;
 }
 
-.skill-card:hover > .skill-name {
+.container:hover > .name {
   color: black;
 }
 
@@ -50,7 +47,7 @@
 }
 
 @media only screen and (max-width: 1090px) {
-  .skills-card {
+  .container {
     width: 60vw;
   }
 }

@@ -8,7 +8,7 @@ const accounts_bar = () => {
       {srcs.map((el) => {
         return (
           <a href={el.link} target="_blank" rel="noreferrer">
-            <img src={el.src} alt="" />
+            <img src={el.src} alt="" width="50px" />
           </a>
         );
       })}
